@@ -1,6 +1,6 @@
 import React from 'react';
-import { feedback } from "../assets";
-import styles from '../style';
+import { facebook } from "../assets";
+import styles from '../style'; 
 import FeedbackCard from './FeedbackCard';
 
 const Testimonials = () => {
@@ -22,7 +22,7 @@ const Testimonials = () => {
       </div>
 
       <div className='flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1]'>
-        {feedback.map((card) => (
+        {facebook.map((card) => (
           <FeedbackCard key={card.id} {...card}/>
         ))}
       </div>
